@@ -1,0 +1,48 @@
+import java.util.Scanner;
+public class calculator {
+
+    public static void main(string[]args) {
+    int n1;
+    int n2;
+    int n3;
+    int cal;
+    int quotient;
+    int reminder;
+    system.out.println(x: "enter 2 number:-");
+    Scanner r=new Scanner(system.in);
+    system.out.println(x:"enter first number:-");
+    n1=r .nextInt();
+    system.out.println(x:"enter second number:-");
+    n2=r .nextInt();
+    system.out.println(x:"select opration:-");
+    system.out.println(X:"1-Add");
+    system.out.println(X:"2 - substract");
+    system.out.println(x:"3 - multiply");
+    system.out.println(X:"4 - divide");
+    system.out.println(x:"enter opration number");
+    Scanner s=new Scanner(system.in);
+    n3=s .nextInt();
+
+    if (n3==1) {
+        cal=n1+n2;
+        system.out.printIn("sum of two numbers:-"+cal)
+    }
+    else if (n3==2) {
+        cal=n1+n2;
+        system.out.printIn("differnce of two numbers:-"+cal)
+    }
+    else if (n3==3) {
+        cal=n1*n2;
+        system.out.printIn("product of two numbers:-"+cal)
+    }
+    else if (n3==4)  {
+        qiotinet=n1/n2;
+        reminder=n1%n2;
+        system.out.printIn("qoutint of two numbers:-"+quotient)
+        system.out.printIn(x:"remainder of two numbers:-"+remainder)
+
+    }
+    }
+}
+
+
